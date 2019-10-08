@@ -49,7 +49,7 @@ The different types of branches we may use are:
 ### Title
       - a very short description of the change
       - imperative, present tense ("change" not "changed")
-      - no capitalised first letter
+      - no capitalised first letter (optional)
       - no dot (.) at the end
 
 ### Body
