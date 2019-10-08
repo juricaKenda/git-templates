@@ -9,7 +9,7 @@ The different types of branches we may use are:
 * naming convention: *feat/branch_name*
 * used when developing a new feature or enhancement which has the potential of a development lifespan longer than a single deployment
 * must adhere to static code check & peer-review (min 2 people)
-* merged with no fast—forward
+* merged with no fast-forward
 
 ### Bug branches:
 * naming convention: *bug/branch_name*
@@ -25,6 +25,39 @@ The different types of branches we may use are:
 * merged with no fast—forward
 * hotfixes will be monitored and will require review to determine if this fixes root of the issue
 * should be used extremely rarely
+
+
+## Git Commit Naming Conventions
+### Structure
+      
+      <type>(<scope>): <title>  
+      <BLANK LINE>  
+      <body>  
+      <BLANK LINE>  
+      <footer>
+
+### Type tags
+    - feature   (developing a new feature or system enhancement)
+    - maintain  (refactoring, formatting, renaming..)
+    - test      (writing or modifying tests)
+    - bugfix   (fixing a case specific bug)
+
+
+### Scope
+    - anything specifying the place of the commit change  (example: validating-service)
+
+### Title
+      - a very short description of the change
+      - imperative, present tense ("change" not "changed")
+      - no capitalised first letter
+      - no dot (.) at the end
+
+### Body
+      - should include the motivation for the change
+      - may contain further explanations (when necessary)
+
+### Footer
+      - should contain any information like references to Jira issues related to this commit
 
 
 ## Authors
